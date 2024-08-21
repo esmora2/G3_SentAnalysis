@@ -21,8 +21,8 @@ Asegúrate de tener Python 3.6 o superior instalado. Este proyecto requiere las 
 1. **Clona el repositorio o descarga el proyecto:**
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_PROYECTO>
+   git clone https://github.com/esmora2/G3_SentAnalysis.git
+   cd G3_SentAnalysis
 
 ## Ejecucion
 2. Crea un entorno virtual y activa el entorno:
