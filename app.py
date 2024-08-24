@@ -7,11 +7,6 @@ import pandas as pd
 import spacy
 import os  # Importar os para acceder a variables de entorno
 
-# Comprobación y descarga del modelo SpaCy si no está instalado
-if not os.path.exists(spacy.util.get_data_path() / "en_core_web_sm"):
-    import spacy.cli
-    spacy.cli.download("en_core_web_sm")
-
 nltk.download('stopwords')
 
 # Cargar stopwords en inglés
