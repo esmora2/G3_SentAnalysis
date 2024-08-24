@@ -87,5 +87,6 @@ def my_form_post():
                            sentiment_class=sentiment_class)
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))  # Usar el puerto proporcionado por Railway o 5000 como valor por defecto
-    app.run(debug=True, host="0.0.0.0", port=port, threaded=True)
+    port = int(os.environ.get('PORT', 5000))  # Usa el puerto proporcionado por Railway o 5000 como predeterminado
+    app.run(host="0.0.0.0", port=port)
+
